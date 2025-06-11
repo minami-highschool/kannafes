@@ -165,8 +165,9 @@ button:active img {
 
 /*スライダー*/
 
-#slider {
-  padding-left: 5%;
+.slick-track {
+  display: flex !important;
+  justify-content: center;
 }
 
 .slider-2 .slick-slide {
@@ -177,10 +178,9 @@ button:active img {
     overflow: hidden;
   }
   .slider-2 .slick-slide img {
-    display: block;
-    width: 70%;
+    width: auto;
     height: auto;
-    margin: 0 auto;
+    max-width: 100%;
   }
   .slider-2 .slick-arrow {
     width: 60px;
