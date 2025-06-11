@@ -164,6 +164,11 @@ button:active img {
 
 
 /*スライダー*/
+
+#slider {
+  padding-left: 5%;
+}
+
 .slider-2 .slick-slide {
     width: 600px;
     height: 400px;
