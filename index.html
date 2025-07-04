@@ -1,0 +1,282 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" href="css/modaal.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/modaal.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/script.js"></script>
+
+    <title>文化祭トップページ</title>
+</head>
+<body>
+    
+    <div class="title">
+        <h1 style="font-size: 300%;">第n回かんな祭</h1>
+        <h1>スローガン</h1>
+        <img class="mainvisual" src="img/light.jpg" alt="">
+    </div>
+
+<!--スライダー-->
+    <div id="slider">
+        <ul class="slider-2" id="js-slider-2">
+            <li><img src="img/light.jpg" alt=""></li>
+            <li><img src="img/light.jpg" alt=""></li>
+            <li><img src="img/light.jpg" alt=""></li>
+            <li><img src="img/light.jpg" alt=""></li>
+        </ul>
+        <div class="dots-2"></div>
+    </div>
+
+
+
+<!--お知らせリスト-->
+<!--<section id="about">
+
+    <div class="about-box">
+        <span class="about-title">お知らせ</span>
+        <div class="about-list">
+            <h2>お知らせ</h2>
+            <h2>お知らせ</h2>
+            <h2>お知らせ</h2>
+            <h2>お知らせ</h2>
+            <h2>お知らせ</h2>
+            <h2>お知らせ</h2>
+            <h2>お知らせ</h2>
+            <h2>お知らせ</h2>
+            <h2>お知らせ</h2>
+        </div>
+    </div>
+
+
+</section>-->
+   
+<!--出し物-->
+<section id="dasimono" style="text-align: center;">
+    
+    <h1 id="d-title" style="color: white; font-size:300%;">出し物一覧</h1>
+
+    <!--フィルターボタン-->
+    <div class="filter">
+        <button data-filter="all">全て</button>
+        <button data-filter="food"><img src="img/food.jpeg" alt="">食品</button>
+        <button data-filter="exhibit"><img src="img/exhibit.jpeg" alt="">展示</button>
+        <button data-filter="game"><img src="img/game.jpeg" alt="">ゲーム</button>
+    </div>
+
+    <h2 id="oneclass" class="classtitle" style="color: white;">一学年</h2>
+
+    <div class="class" id="onepage" style="text-align: center;">
+
+        <!--出し物の紹介-->
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <img src="img/food.jpeg" alt="" class="c-f-img">
+            <h2><a href="#11" class="moddal">11R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="exhibit">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#12" class="moddal">12R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="game">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#13" class="moddal">13R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#14" class="moddal">14R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#15" class="moddal">15R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#16" class="moddal">16R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#17" class="moddal">17R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#18" class="moddal">18R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+        
+    </div>
+    
+    <h2 id="twoclass" class="classtitle" style="color: white;">二学年</h2>
+
+    <div class="class" id="twopage" style="text-align: center;">
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#21" class="moddal">21R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#22" class="moddal">22R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#23" class="moddal">23R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#24" class="moddal">24R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#25" class="moddal">25R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#26" class="moddal">26R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#27" class="moddal">27R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#28" class="moddal">28R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+    </div>
+       
+    
+        
+    <h2 id="threeclass" class="classtitle"  style="color: white;">三学年</h2>
+
+    <div class="class" id="threepage" style="text-align: center;">
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#31" class="moddal">31R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#32" class="moddal">32R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#33" class="moddal">33R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#34" class="moddal">34R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#35" class="moddal">35R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#36" class="moddal">36R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#37" class="moddal">37R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#38" class="moddal">38R</a></h2>
+            <p>コンセプトCAFE</p>
+        </div>
+    </div>
+    
+    <h2 id="PTA" class="classtitle" style="color: white;">PTA</h2>
+    <div class="class" id="PTApage" style="text-align: center;">
+        
+        <div class="item" data-category="food">
+            <img src="img/dana.jpg" alt="" class="main">
+            <h2><a href="#PTA" class="moddal">PTA</a></h2>
+            <p>PTA販売</p>
+        </div>
+    </div>
+
+    <img src="img/kokubankesi.png" alt="" class="bgimg">
+</section>
+
+<!--投票-->
+<section class="vote">
+    <h1 style="font-size: 300%;">投票</h1>
+    <h1>数ある出し物の中から1番を決めよう！！</h1>
+    <img src="img/vote.png" alt="投票">
+    <h2>投票はこちら</h2>
+</section>
+
+
+<!--出し物の説明-->
+    <div id="11" style="display: none;">
+        <h1>コンセプトカフェ</h1>
+        <p>説明文</p>
+    </div>
+
+<!--メニューボタン-->
+    <div class="menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+<!--メニューリスト-->
+
+    <div class="menu-list">
+        <h2><a href="index.html">トップページ</a></h2>
+        <h2><a href="schedule.html">タイムスケジュール・校内マップ</a></h2>
+        <h2><a href="accses.html">アクセス</a></h2>
+    </div>
+
+    <h2 class="pre">ただいま準備中</h2>
+    
+</body>
+</html>
