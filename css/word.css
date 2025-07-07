@@ -1,0 +1,46 @@
+.principal {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.principal h1 {
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.principal h2 {
+    position: absolute;
+    top: -60px;
+    right: 70px;
+}
+
+.principal p {
+    margin-top: 50px;
+}
+
+/*実行委員長*/
+
+.chair {
+    position: relative;
+}
+
+.chair h1 {
+    position: absolute;
+    top: -60px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.chair h2 {
+    position: absolute;
+    top: -70px;
+    right: 70px;
+}
+
+.chair p {
+    margin-top: 150px;
+}

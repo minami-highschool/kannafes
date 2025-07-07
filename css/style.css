@@ -1,0 +1,221 @@
+.pre {
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: -20;
+  left: 0;
+}
+
+body {
+  position: relative;
+}
+
+.title {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.title img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+/*画像の拡大表示*/
+.modaal-image .modaal-container {
+  width: 70%;
+}
+
+/* 出し物 */
+#dasimono {
+    position: relative;
+    background:linear-gradient(rgb(4, 95, 59),rgb(6, 79, 30));
+    border: 35px rgb(46, 27, 4) solid;
+    margin: 0 auto;
+}
+
+#dasimono .bgimg {
+    position: absolute;
+    bottom: -50;
+    right: -1;
+    width: 150px;
+}
+  
+#d-title h1 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.classtitle {
+    width: 15rem;
+    font-size: 300%;
+    margin: 1rem auto;
+}
+
+.item {
+  position: relative;
+}
+
+.class .item {
+    background-color: white;
+    width: 15rem;
+    height: 18rem;
+    border: 4px solid #000;
+    margin: 1rem auto;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.class .item .main {
+  width: 15rem;
+  height: 8rem;
+  border-radius: 3px;
+}
+
+.item .c-f-img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.class .close  {
+    display: none;
+}
+
+.intro {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 30%;
+}
+
+.filter button {
+  position: relative;
+  background-color: #fff;
+  border-radius: 7px;
+  width: 8rem;
+  height: 3rem;
+  margin: 15px;
+}
+
+.filter img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  top: 5px;
+}
+
+button:active {
+  opacity: 80%;
+}
+
+button:active img {
+  opacity: 80%;
+}
+
+/*投票*/
+.vote {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.vote img {
+  width: 300px;
+  height: 300px;
+}
+
+
+/*スライダー*/
+
+.club {
+  text-align: center;
+  font-size: 300%;
+}
+
+.slider-2 .slick-slide {
+    width: 20em;
+    height: 15em;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .slider-2 .slick-slide img {
+    width: auto;
+    height: auto;
+  }
+  .slider-2 .slick-arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0;
+    position: absolute;
+    top: 180px;
+    z-index: 1;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  }
+  .slider-2 .slick-arrow::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #09000d;
+    border-width: 3px 3px 0 0;
+    position: absolute;
+    top: 24px;
+    transform: rotate(45deg);
+  }
+  .slider-2 .slick-next {
+    right: 0;
+  }
+  .slider-2 .slick-prev {
+    left: 0;
+  }
+  .slider-2 .slick-next::before {
+    left: 20px;
+  }
+  .slider-2 .slick-prev::before {
+    border-width: 0 0 3px 3px;
+    right: 22px;
+  }
+  .dots-2 .slick-dots {
+    text-align: center;
+  }
+  .dots-2 .slick-dots li {
+    display: inline-block;
+  }
+  .dots-2 .slick-dots button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 6px;
+    font-size: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: #bcbcbc;
+    border-radius: 50%;
+  }
+  .dots-2 .slick-dots .slick-active button {
+    background: #0a467d;
+  }
