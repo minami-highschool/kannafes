@@ -23,6 +23,7 @@
     }
     .principal h2 {
         font-size: 120%;
+        top: 180px;
     }
 }
 
@@ -56,6 +57,7 @@
     }
     .chair h2 {
         font-size: 120%;
+        top: 180px;
     }
 }
 
