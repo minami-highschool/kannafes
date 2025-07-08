@@ -145,12 +145,11 @@ button:active img {
   height: 300px;
 }
 
-
 /*スライダー*/
 
-.club {
-  text-align: center;
-  font-size: 200%;
+#slider img {
+  max-width: 80%;
+  max-height: 80%;
 }
 
 .slider-2 .slick-slide {
