@@ -10,10 +10,10 @@ $(function(){
 
 $(function(){
     $('.moddal').modaal({
-        type:'image',
-        width:'1000',
-        height:'700'
     });
+    $('.imgmoddal').modaal({
+        type:'image',
+    })
 });
 
 
