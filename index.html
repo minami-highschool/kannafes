@@ -3,379 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--css-->
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
-    <link rel="stylesheet" href="css/modaal.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--javascript-->
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/word.css">
     <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/modaal.min.js"></script>
-    <script src="js/slick.js"></script>
     <script src="js/script.js"></script>
-
-    <title>文化祭トップページ</title>
+    <title>校長先生・文化祭実行委員長からの言葉</title>
 </head>
 <body>
-    
-    <div class="title">
-        <h1 style="font-size: 200%;">第５４回かんな祭</h1>
-        <img class="mainvisual" src="img/class_photo/R7かんな祭ポスターjpg.jpg" alt="">
+
+    <div class="principal">
+        <h1>校長先生からの言葉</h1>
+        <h2>和田潤子</h2>
+        <p>今年のかんな祭のテーマは「笑顔満祭」！この文化祭が、関わってくれたすべての人の笑顔で満たされるように、心を込めて準備してきました。一人ひとりの思いが詰まったこの一日、仲間と過ごす時間も、出会いも、すべて楽しんでもらえたらうれしいです。笑顔があふれる特別な一日になりますように。思いっきり楽しんでいってください！</p>
     </div>
 
-<!--スライダー-->
-
-    <h1 class="club">部活・有志出し物</h1>
-
-    <div id="slider">
-        <ul class="slider-2" id="js-slider-2">
-            <li><a href="#club1" class="moddal"><img src="img/class_photo/書道.jpeg" alt=""></a></li>
-            <li><a href="#club2" class="moddal"><img src="img/class_photo/美術.PNG" alt=""></a></li>
-            <li><a href="#club3" class="moddal"><img src="img/class_photo/吹奏楽.png" alt=""></a></li>
-            <li><a href="#club4" class="moddal"><img src="img/class_photo/ダンス.PNG" alt=""></a></li>
-            <li><a href="#club5" class="moddal"><img src="img/class_photo/茶道.jpg" alt=""></a></li>
-            <li><a href="#club6" class="moddal"><img src="img/class_photo/家庭科.png" alt=""></a></li>
-            <li><a href="#club7" class="moddal"><img src="img/class_photo/華道.jpg" alt=""></a></li>
-            <li><a href="#club8" class="moddal"><img src="img/class_photo/音楽.PNG" alt=""></a></li>
-            <li><a href="#club9" class="moddal"><img src="img/class_photo/かるた.png" alt=""></a></li>
-            <li><a href="#club10" class="moddal"><img src="img/class_photo/写真.PNG" alt=""></a></li>
-            <li><a href="#club11" class="moddal"><img src="img/class_photo/自然科学.PNG" alt=""></a></li>
-            <li><a href="#club12" class="moddal"><img src="img/class_photo/有志藤井風.PNG" alt=""></a></li>
-            <li><a href="#club13" class="moddal"><img src="img/class_photo/Sensor(有志).jpg" alt=""></a></li>
-            <li><a href="#club14" class="moddal"><img src="img/class_photo/演劇(有志).PNG" alt=""></a></li>
-        </ul>
-        <div class="dots-2"></div>
+    <div class="chair">
+        <h1>文化祭実行委員長からの言葉</h1>
+        <h2>吉田美咲</h2>
+        <p>笑顔には、人を幸せにするチカラがある。貴方の笑顔は、きっと誰かを幸せにしている。そして、貴方には誰かを笑顔にするチカラもある。今年のかんな祭文化の部のテーマは「笑顔満祭」。一生懸命取り組んだ人ほど、いい笑顔になっているに違いない。自分のためだけではなく誰かを笑顔にするために頑張ったから。では、南高丸の乗組員の皆さん、輝く笑顔満載で出航いたしましょう。未来へ向かって！</p>
     </div>
 
-
-<!--出し物-->
-<section id="dasimono" style="text-align: center;">
-    
-    <h1 id="d-title" style="color: white; font-size:300%;">出し物一覧</h1>
-
-    <!--フィルターボタン-->
-    <div class="filter">
-        <button data-filter="all">全て</button>
-        <button data-filter="food"><img src="img/main/food.jpeg" alt="">販売</button>
-        <button data-filter="exhibit"><img src="img/main/exhibit.jpeg" alt="">エンタメ</button>
-        <button data-filter="game"><img src="img/main/game.jpeg" alt="">ゲーム</button>
-    </div>
-
-    <h2 id="oneclass" class="classtitle" style="color: white;">一学年</h2>
-
-    <div class="class" id="onepage" style="text-align: center;">
-
-        <!--出し物の紹介-->
-        <div class="item" data-category="food">
-            <a href="img/class_photo/ダンキホーテ.png" class="moddal"><img src="img/class_photo/ダンキホーテ.png" alt="" class="main"></a>
-            <img src="img/main/food.jpeg" alt="" class="c-f-img">
-            <h2><u>11R</u></h2>
-            <p>ドン・キホーテ<br>アイス・飲み物・チュロス</p>
-        </div>
-
-        <div class="item" data-category="food">
-            <a href="img/class_photo/12R.PNG" class="moddal"><img src="img/class_photo/12R.PNG" alt="" class="main"></a>
-            <img src="img/main/food.jpeg" alt="" class="c-f-img">
-            <h2><u>12R</u></h2>
-            <p>メイド喫茶<br>駄菓子・ジュース</p>
-        </div>
-
-        <div class="item" data-category="food">
-            <a href="img/class_photo/康平堂.png" class="moddal"><img src="img/class_photo/康平堂.png" alt="" class="main"></a>
-            <img src="img/main/food.jpeg" alt="" class="c-f-img">
-            <h2><u>13R</u></h2>
-            <p>昔ながらの駄菓子屋<br>駄菓子・ジュース</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/ゆーなをうちぬけ.png" class="moddal"><img src="img/class_photo/ゆーなをうちぬけ.png" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>14R</u></h2>
-            <p>VS 嵐<br>キッキングスナイパー</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/無題24 - 優珠.png" class="moddal"><img src="img/class_photo/無題24 - 優珠.png" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>15R</u></h2>
-            <p>〇×脱出ゲーム<br>アミューズメント</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/16R.PNG" class="moddal"><img src="img/class_photo/16R.PNG" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>16R</u></h2>
-            <p>VS 嵐<br>バンクボウリングなど</p>
-        </div>
-
-        <div class="item" data-category="exhibit">
-            <a href="img/class_photo/IMG_3738 - うんこぶりぶり.jpeg" class="moddal"><img src="img/class_photo/IMG_3738 - うんこぶりぶり.jpeg" alt="" class="main"></a>
-            <img src="img/main/exhibit.jpeg" alt="" class="c-f-img">
-            <h2><u>17R</u></h2>
-            <p>殺人ピエロ<br>お化け屋敷</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/18R.PNG" class="moddal"><img src="img/class_photo/18R.PNG" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>18R</u></h2>
-            <p>〇×脱出ゲーム<br>アミューズメント</p>
-        </div>
-        
-    </div>
-    
-    <h2 id="twoclass" class="classtitle" style="color: white;">二学年</h2>
-
-    <div class="class" id="twopage" style="text-align: center;">
-        <div class="item" data-category="game">
-            <a href="img/class_photo/21R.PNG" class="moddal"><img src="img/class_photo/21R.PNG" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>21R</u></h2>
-            <p>パイレーツオブカリビアン<br>ライド型アトラクション</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/格付け.png" class="moddal"><img src="img/class_photo/格付け.png" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>22R</u></h2>
-            <p>芸能人格付けチェック<br>聴覚・視覚・嗅覚・触覚</p>
-        </div>
-
-        <div class="item" data-category="food">
-            <a href="img/class_photo/IMG_0831 - 君崎和篤.jpeg" class="moddal"><img src="img/class_photo/IMG_0831 - 君崎和篤.jpeg" alt="" class="main"></a>
-            <img src="img/main/food.jpeg" alt="" class="c-f-img">
-            <h2><u>23R</u></h2>
-            <p>海の家×猫カフェ<br>アイス・冷凍スイーツ</p>
-        </div>
-
-        <div class="item" data-category="exhibit">
-            <a href="img/class_photo/IMG_5743 - 三宅杏.jpeg" class="moddal"><img src="img/class_photo/IMG_5743 - 三宅杏.jpeg" alt="" class="main"></a>
-            <img src="img/main/exhibit.jpeg" alt="" class="c-f-img">
-            <h2><u>24R</u></h2>
-            <p>廃墟のおもちゃ屋さん<br>サイレント肝試しゲーム</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/無題130_20250620235219 - 社不.png" class="moddal"><img src="img/class_photo/無題130_20250620235219 - 社不.png" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>25R</u></h2>
-            <p>移動式的当てゲーム<br>アミューズメント</p>
-        </div>
-
-        <div class="item" data-category="exhibit">
-            <a href="img/class_photo/大川.png" class="moddal"><img src="img/class_photo/大川.png" alt="" class="main"></a>
-            <img src="img/main/exhibit.jpeg" alt="" class="c-f-img">
-            <h2><u>26R</u></h2>
-            <p>教会×お墓<br>お化け屋敷</p>
-        </div>
-
-        <div class="item" data-category="food">
-            <a href="img/class_photo/美術館カフェ.png" class="moddal"><img src="img/class_photo/美術館カフェ.png" alt="" class="main"></a>
-            <img src="img/main/food.jpeg" alt="" class="c-f-img">
-            <h2><u>27R</u></h2>
-            <p>美術館カフェ<br>洋菓子・紅茶・ジュース</p>
-        </div>
-
-        <div class="item" data-category="food">
-            <a href="img/class_photo/グランメゾン鎌取.png" class="moddal"><img src="img/class_photo/グランメゾン鎌取.png" alt="" class="main"></a>
-            <img src="img/main/food.jpeg" alt="" class="c-f-img">
-            <h2><u>28R</u></h2>
-            <p>グランメゾン東京<br>アイス・紅茶</p>
-        </div>
-    </div>
-       
-    
-        
-    <h2 id="threeclass" class="classtitle"  style="color: white;">三学年</h2>
-
-    <div class="class" id="threepage" style="text-align: center;">
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/31R.PNG" class="moddal"><img src="img/class_photo/31R.PNG" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>31R</u></h2>
-            <p>シュガーラッシュ<br>ライド型アトラクション</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/vs yama.PNG" class="moddal"><img src="img/class_photo/vs yama.PNG" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>32R</u></h2>
-            <p>VS 嵐<br>ピンボールランナーなど</p>
-        </div>
-
-        <div class="item" data-category="exhibit">
-            <a href="img/class_photo/33R.PNG" class="moddal"><img src="img/class_photo/33R.PNG" alt="" class="main"></a>
-            <img src="img/main/exhibit.jpeg" alt="" class="c-f-img">
-            <h2><u>33R</u></h2>
-            <p>廃病院<br>お化け屋敷</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/toy story.png" class="moddal"><img src="img/class_photo/toy story.png" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>34R</u></h2>
-            <p>トイストーリーマニア<br>ライド型アトラクション</p>
-        </div>
-
-        <div class="item" data-category="exhibit">
-            <a href="img/class_photo/35R.PNG" class="moddal"><img src="img/class_photo/35R.PNG" alt="" class="main"></a>
-            <img src="img/main/exhibit.jpeg" alt="" class="c-f-img">
-            <h2><u>35R</u></h2>
-            <p>連続殺人犯の逃走<br>お化け屋敷</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/コナン.png" class="moddal"><img src="img/class_photo/コナン.png" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>36R</u></h2>
-            <p>コナン<br>謎解きゲーム</p>
-        </div>
-
-        <div class="item" data-category="game">
-            <a href="img/class_photo/37R.PNG" class="moddal"><img src="img/class_photo/37R.PNG" alt="" class="main"></a>
-            <img src="img/main/game.jpeg" alt="" class="c-f-img">
-            <h2><u>37R</u></h2>
-            <p>回転シーソー＆フォトスポット<br>ライド型アトラクション</p>
-        </div>
-
-        <div class="item" data-category="exhibit">
-            <a href="img/class_photo/38R.PNG" class="moddal"><img src="img/class_photo/38R.PNG" alt="" class="main"></a>
-            <img src="img/main/exhibit.jpeg" alt="" class="c-f-img">
-            <h2><u>38R</u></h2>
-            <p>今日から俺は<br>演劇</p>
-        </div>
-    </div>
-    
-    <h2 id="PTA" class="classtitle" style="color: white;">PTA</h2>
-    <div class="class" id="PTApage" style="text-align: center;">
-        
-        <div class="item" data-category="food">
-            <a href="img/class_photo/PTA.PNG" class="moddal"><img src="img/class_photo/PTA.PNG" alt="" class="main"></a>
-            <img src="img/main/food.jpeg" alt="" class="c-f-img">
-            <h2><u>PTA</u></h2>
-            <p>PTA販売</p>
-        </div>
-
-        <div class="item" data-category="food">
-            <a href="img/class_photo/taoru.jpg" class="moddal"><img src="img/class_photo/taoru.jpg" alt="" class="main"></a>
-            <img src="img/main/food.jpeg" alt="" class="c-f-img">
-            <h2><u>同窓会</u></h2>
-            <p>物品販売</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!--投票-->
-<section class="vote">
-    <h1 style="font-size: 300%;">投票</h1>
-    <h1>数ある出し物の中から1番を決めよう！！</h1>
-    <img src="img/main/vote.png" alt="投票">
-    <h2><a href="https://docs.google.com/forms/d/e/1FAIpQLSfmubohUhdOp2iCPGo-0cU4B3UDOTGIDKlBG_uqNYpXxtazug/viewform">投票はこちら</a></h2>
-</section>
-
-<!--部活動・有志などの紹介ページ-->
-<div id="club1" style="display: none;">
-    <h1>書道部</h1>
-    <h2>展示</h2>
-    <h2>場所：２階渡り廊下</h2>
-</div>
-
-<div id="club2" style="display: none;">
-    <h1>美術部</h1>
-    <h2>展示</h2>
-    <h2>場所：２階渡り廊下</h2>
-</div>
-
-<div id="club3" style="display: none;">
-    <h1>吹奏楽部</h1>
-    <h2>ミニコンサート</h2>
-    <h2>場所：第１体育館</h2>
-  <h3>時間<br>１２日１０：３０～１１：３０</h3>
-</div>
-
-<div id="club4" style="display: none;">
-    <h1>ダンス部</h1>
-    <h2>ダンス発表</h2>
-    <h2>場所：第１体育館</h2>
-  <h3>時間<br>１１日１１：００～１２：００<br>１２日１３：００～１４：００</h3>
-</div>
-
-<div id="club5" style="display: none;">
-    <h1>茶道同好会</h1>
-    <h2>お点前の披露</h2>
-    <h2>場所：作法室</h2>
-</div>
-
-<div id="club6" style="display: none;">
-    <h1>家庭科同好会</h1>
-    <h2>ハンドメイド教室</h2>
-    <h2>場所：被服室</h2>
-</div>
-
-<div id="club7" style="display: none;">
-    <h1>華道部</h1>
-    <h2>展示</h2>
-    <h2>場所：２階渡り廊下</h2>
-</div>
-
-<div id="club8" style="display: none;">
-    <h1>音楽同好会</h1>
-    <h2>バンド発表</h2>
-    <h2>場所：第２体育館</h2>
-    <h3>時間<br>１１日１０：３０～１２：２０<br>１３：００～１４：２０ <br>１２日１０：００～１１：３５<br>１２：３０～１３：３０</h3>
-</div>
-
-<div id="club9" style="display: none;">
-    <h1>かるた同好会</h1>
-    <h2>競技かるた</h2>
-    <h2>場所：書道室</h2>
-</div>
-
-<div id="club10" style="display: none;">
-    <h1>写真同好会</h1>
-    <h2>展示</h2>
-    <h2>場所：２階渡り廊下</h2>
-</div>
-
-<div id="club11" style="display: none;">
-    <h1>自然科学同好会</h1>
-    <h2>標本作り</h2>
-    <h2>場所：生物室</h2>
-</div>
-
-<div id="club12" style="display: none;">
-    <h1>藤井風（有志）</h1>
-    <h2>バンド演奏</h2>
-    <h2>場所：第１体育館</h2>
-    <h3>時間<br>１１日１２：３０～１３：００<br>１２日１２：００～１２：３０</h3>
-</div>
-
-<div id="club13" style="display: none;">
-    <h1>Sensor（有志）</h1>
-    <h2>バンド演奏</h2>
-    <h2>場所：第１体育館</h2>
-    <h3>時間<br>１１日１２：３０～１３：００<br>１２日１２：００～１２：３０</h3>
-</div>
-
-<div id="club14" style="display: none;">
-    <h1>演劇（有志）</h1>
-    <h2>演劇</h2>
-    <h2>場所：数社教室</h2>
-    <h3>時間<br>１１日１２：３０～１３：００<br>１２日１２：００～１２：３０</h3>
-</div>
-
-<!--メニューボタン-->
+    <!--メニューボタン-->
     <div class="menu-btn">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
     </div>
 
-<!--メニューリスト-->
+    <!--メニューリスト-->
 
     <div class="menu-list">
         <h2><a href="index.html">トップページ</a></h2>
@@ -383,8 +39,6 @@
         <h2><a href="schedule.html">タイムスケジュール・校内マップ</a></h2>
         <h2><a href="accses.html">アクセス</a></h2>
     </div>
-
-    <!--<h2 class="pre">ただいま準備中</h2>-->
-
+    
 </body>
 </html>
