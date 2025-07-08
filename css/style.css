@@ -19,10 +19,15 @@ body {
 }
 
 .title img {
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
+    max-height: 30%;
+    max-width: 30%;
+}
+
+@media (max-width:600px) {
+  .title img {
+    max-height: 60%;
     max-width: 60%;
+}
 }
 
 h1 {
@@ -145,7 +150,7 @@ button:active img {
 
 .club {
   text-align: center;
-  font-size: 300%;
+  font-size: 200%;
 }
 
 .slider-2 .slick-slide {
