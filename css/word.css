@@ -29,7 +29,7 @@
     @media (orientation: landscape){
     .principal h2 {
         font-size: 120%;
-        top: 360px;
+        top: 600px;
     }
 }
 }
@@ -70,7 +70,7 @@
     @media (orientation: landscape){
     .chair h2 {
         font-size: 120%;
-        top: 360px;
+        top: 600px;
     }
 }
 }
@@ -78,3 +78,4 @@
 .chair p {
     margin-top: 150px;
 }
+
