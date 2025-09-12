@@ -25,13 +25,13 @@
         font-size: 120%;
         top: 180px;
     }
+}
 
-    @media screen and (orientation: landscape){
+@media (max-width: 1000px) {
     .principal h2 {
         font-size: 120%;
         top: 500px;
     }
-}
 }
 
 .principal p {
@@ -66,13 +66,13 @@
         font-size: 120%;
         top: 180px;
     }
+}
 
-    @media screen and (orientation: landscape){
+@media (max-width: 1000px) {
     .chair h2 {
         font-size: 120%;
         top: 500px;
     }
-}
 }
 
 .chair p {
