@@ -37,7 +37,7 @@
 @media screen and (orientation: landscape) {
     .principal h2 {
         font-size: 120%;
-        top: 250px;
+        top: 300px;
     }
 }
 
@@ -65,7 +65,6 @@
     right: 70px;
 }
 
-/* 画面幅が中くらいのスマホやタブレットに近づいた場合 */
 @media (max-width: 932px) {
     .chair h1 {
         font-size: 150%;
@@ -76,11 +75,17 @@
     }
 }
 
-/* もう少し大きな画面（例: タブレットや小さめのPC） */
 @media (max-width: 934px) {
     .chair h2 {
         font-size: 120%;
         top: 160;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .chair h2 {
+        font-size: 120%;
+        top: 300px;
     }
 }
 
