@@ -34,12 +34,7 @@
     }
 }
 
-@media screen and (orientation: landscape) {
-    .principal h2 {
-        font-size: 120%;
-        top: 300px;
-    }
-}
+
 
 .principal p {
     margin-top: 50px;
@@ -78,14 +73,7 @@
 @media (max-width: 934px) {
     .chair h2 {
         font-size: 120%;
-        top: 160;
-    }
-}
-
-@media screen and (orientation: landscape) {
-    .chair h2 {
-        font-size: 120%;
-        top: 300px;
+        top: 160px;
     }
 }
 
