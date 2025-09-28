@@ -17,7 +17,7 @@
     right: 70px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 932px) {
     .principal h1 {
         font-size: 150%;
     }
@@ -27,10 +27,10 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 934px) {
     .principal h2 {
         font-size: 120%;
-        top: 500px;
+        top: 180px;
     }
 }
 
@@ -58,22 +58,25 @@
     right: 70px;
 }
 
-@media (max-width: 600px) {
+/* 画面幅が中くらいのスマホやタブレットに近づいた場合 */
+@media (max-width: 932px) {
     .chair h1 {
         font-size: 150%;
     }
     .chair h2 {
         font-size: 120%;
-        top: 180px;
+        top: 160px;
     }
 }
 
-@media (max-width: 1000px) {
+/* もう少し大きな画面（例: タブレットや小さめのPC） */
+@media (max-width: 934px) {
     .chair h2 {
         font-size: 120%;
-        top: 500px;
+        top: 160;
     }
 }
+
 
 .chair p {
     margin-top: 150px;
